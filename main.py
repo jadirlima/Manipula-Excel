@@ -33,6 +33,7 @@ for linha in linhas:
     planilha_ativa[f'C{indice}'] = f'=AVERAGE(B{indice}:B{indice+19}) - 2*STDEV(B{indice}:B{indice+19})'
     planilha_ativa[f'D{indice}'] = f'=AVERAGE(B{indice}:B{indice + 19}) + 2*STDEV(B{indice}:B{indice + 19})'
 
+
     indice += 1
 
 
